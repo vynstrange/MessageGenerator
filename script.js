@@ -104,6 +104,12 @@ const quotes = [
 "Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So, throw off the bowlines, sail away from safe harbor, catch the trade winds in your sails. Explore, Dream, Discover. -Mark Twain"
 ]
 
+//Array of various greetings to be randomly pulled when program is ran
 const greeting = ["Hello there!", "Oh, I didn't see you there.", "It's you again? What now?", "Great to see you again!", "I knew you would be back!", "Aren't you loving how much time we're spending together",
 "You must really love me to come and see me.", "I've got something very special for you today.", "If it's inspiration you see, you've come to the right place!", "You're in luck, I have just what you're looking for today!",
 "This is where things get really interesting.", "Let's turn on the juice and see what shakes loose." ];
+
+//Array for various responses after the quote is pulledf
+const response = ["Wow, never saw that one coming.", "I hope that helps you find what you're looking for.", "That was amazing!", "This should definitely broaden your horizons.", 
+"You can't go wrong with that wisdom.", "Thanks for coming by. See you again!", "I hope you weren't dissapointed.", "Oooh how mysterious.", "That's the best you're going to get today.",
+"I hope you didn't spend money for that.", "Oh. Yikes", "That is hilarious.", "I can't believe that just happened.", "The stars are aligned with you today it seems."];

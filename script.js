@@ -1,6 +1,6 @@
 /* Portfolio Project -- Message Generator
 The aim is to design a random message generator */
-
+//Array of quotes to be pulled from
 const quotes = [
 "Spread love everywhere you go. Let no one ever come to you without leaving happier. -Mother Teresa",
 "When you reach the end of your rope, tie a knot in it and hang on. -Franklin D. Roosevelt",
@@ -103,3 +103,7 @@ const quotes = [
 "First, have a definite, clear practical ideal; a goal, an objective. Second, have the necessary means to achieve your ends; wisdom, money, materials, and methods. Third, adjust all your means to that end. -Aristotle",
 "Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So, throw off the bowlines, sail away from safe harbor, catch the trade winds in your sails. Explore, Dream, Discover. -Mark Twain"
 ]
+
+const greeting = ["Hello there!", "Oh, I didn't see you there.", "It's you again? What now?", "Great to see you again!", "I knew you would be back!", "Aren't you loving how much time we're spending together",
+"You must really love me to come and see me.", "I've got something very special for you today.", "If it's inspiration you see, you've come to the right place!", "You're in luck, I have just what you're looking for today!",
+"This is where things get really interesting.", "Let's turn on the juice and see what shakes loose." ];

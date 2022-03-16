@@ -132,3 +132,5 @@ const generateMessage = () => {
     -------------------------------\n
     Goodbye!`;
 }
+
+console.log(generateMessage());

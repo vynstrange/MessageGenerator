@@ -13,8 +13,12 @@ Node.js will need to be installed.
 > Node.js can be downloaded/installed from https://nodejs.org if you don't already have it installed
 
 ### Getting Started
-In your CLI, navigate to whatever directory you download the program to and execute the script.js file using Node
->node script.js
+In your CLI, clone the repository, navigate to the direcory, and then execute the .js file
+```
+git clone https://github.com/vynstrange/MessageGenerator.git
+cd MessageGenerator
+node script.js
+```
 
 ## Uses
 Here are some instances of the output when you run the program.

@@ -17,4 +17,8 @@ In your CLI, navigate to whatever directory you download the program to and exec
 >node script.js
 
 ## Uses
-In progress
+Here are some instances of the output when you run the program.
+![Screenshot 2022-03-16 171218](https://user-images.githubusercontent.com/101427211/158700216-2f9c6cd7-3362-4e66-8bf8-691907285942.png)
+
+It's always different everytime. You never know what combination of messages you're going to get.
+![Screenshot 2022-03-16 171147](https://user-images.githubusercontent.com/101427211/158700333-9a56f01c-a30d-4a5c-b575-c8a5abcd3126.png)

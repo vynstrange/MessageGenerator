@@ -114,11 +114,16 @@ const response = ["Wow, never saw that one coming.", "I hope that helps you find
 "You can't go wrong with that wisdom.", "Thanks for coming by. See you again!", "I hope you weren't dissapointed.", "Oooh how mysterious.", "That's the best you're going to get today.",
 "I hope you didn't spend money for that.", "Oh. Yikes", "That is hilarious.", "I can't believe that just happened.", "The stars are aligned with you today it seems."];
 
+//Function to generate the random message
 const generateMessage = () => {
+    //Generates a random index number in greeting array to pull to display
     const greetIndex = greeting[Math.floor(Math.random() * greeting.length)];
+    //Generates a random index number for response array to pull to display
     const responseIndex = response[Math.floor(Math.random() * response.length)];
+    //Generates a random index number for quotesr array to pull to output
     const quoteIndex = quotes[Math.floor(Math.random() * quotes.length)];
 
+    //Formatting output with random messages
     return `-----------------\n
     -------------------------------\n
     ${greetIndex}\n
@@ -132,5 +137,5 @@ const generateMessage = () => {
     -------------------------------\n
     Goodbye!`;
 }
-
+//Calls function and displays to log
 console.log(generateMessage());

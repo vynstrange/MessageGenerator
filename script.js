@@ -113,3 +113,9 @@ const greeting = ["Hello there!", "Oh, I didn't see you there.", "It's you again
 const response = ["Wow, never saw that one coming.", "I hope that helps you find what you're looking for.", "That was amazing!", "This should definitely broaden your horizons.", 
 "You can't go wrong with that wisdom.", "Thanks for coming by. See you again!", "I hope you weren't dissapointed.", "Oooh how mysterious.", "That's the best you're going to get today.",
 "I hope you didn't spend money for that.", "Oh. Yikes", "That is hilarious.", "I can't believe that just happened.", "The stars are aligned with you today it seems."];
+
+const messages = [greeting, quotes, response];
+
+const generateMessage = () => {
+    
+}

@@ -114,8 +114,21 @@ const response = ["Wow, never saw that one coming.", "I hope that helps you find
 "You can't go wrong with that wisdom.", "Thanks for coming by. See you again!", "I hope you weren't dissapointed.", "Oooh how mysterious.", "That's the best you're going to get today.",
 "I hope you didn't spend money for that.", "Oh. Yikes", "That is hilarious.", "I can't believe that just happened.", "The stars are aligned with you today it seems."];
 
-const messages = [greeting, quotes, response];
-
 const generateMessage = () => {
-    
+    const greetIndex = greeting[Math.floor(Math.random() * greeting.length)];
+    const responseIndex = response[Math.floor(Math.random() * response.length)];
+    const quoteIndex = quotes[Math.floor(Math.random() * quotes.length)];
+
+    return `-----------------\n
+    -------------------------------\n
+    ${greetIndex}\n
+    -------------------------------\n
+    -------------------------------\n
+    ${quoteIndex}\n
+    -------------------------------\n
+    -------------------------------\n
+    ${responseIndex}\n
+    -------------------------------\n
+    -------------------------------\n
+    Goodbye!`;
 }

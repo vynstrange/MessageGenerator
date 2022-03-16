@@ -105,7 +105,7 @@ const quotes = [
 ]
 
 //Array of various greetings to be randomly pulled when program is ran
-const greeting = ["Hello there!", "Oh, I didn't see you there.", "It's you again? What now?", "Great to see you again!", "I knew you would be back!", "Aren't you loving how much time we're spending together",
+const greeting = ["Hello there!", "Oh, I didn't see you there.", "It's you again? What now?", "Great to see you again!", "I knew you would be back!", "Aren't you loving how much time we're spending together?",
 "You must really love me to come and see me.", "I've got something very special for you today.", "If it's inspiration you see, you've come to the right place!", "You're in luck, I have just what you're looking for today!",
 "This is where things get really interesting.", "Let's turn on the juice and see what shakes loose." ];
 
